@@ -1,0 +1,18 @@
+body {
+    background-color: whitesmoke;
+}
+
+header {
+    display: flex;
+}
+
+header > h1 {
+    margin: auto;
+    padding: 10px;
+    font-size: 40px;
+}
+
+header > p {
+    margin: auto;
+}
+

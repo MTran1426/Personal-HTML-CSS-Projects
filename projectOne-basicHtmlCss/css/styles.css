@@ -1,18 +1,42 @@
 body {
-    background-color: whitesmoke;
+    background-color: #837c19;
 }
 
-header {
+
+.headBanner {
+    background-color: #424140;
+    width: 2000px;
+    height: 1000px;
     display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 200px;
 }
 
-header > h1 {
-    margin: auto;
-    padding: 10px;
+.bannerTextGroup > h1 {
+     margin: 100px; 
+    padding: 100px;
+    width: 400px;
+    height: 200px;
     font-size: 40px;
+    background-color: #ffdc44;
 }
 
-header > p {
-    margin: auto;
+.bannerTextGroup > p {
+    background-color: #c7712a;
+    width: 400px;
+    height: 200px;
+    margin: 100px; 
+    padding: 10px;
+    font-size: 30px;
 }
 
+.headBanner > img {
+    margin: 0px 100px;
+    padding: 100px;
+    width: 600px;
+    height: 700px;
+}
+
+.bodyContent {
+    background-color: #bcc42d;
+}

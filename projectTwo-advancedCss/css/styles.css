@@ -1,0 +1,113 @@
+body {
+    background-color: #837c19;
+}
+
+footer {
+    background-color: #ffdc44;
+    margin: 50px;
+    padding: 25px;
+}
+
+footer > p {
+    font-size: 17px;
+}
+
+
+.headBanner {
+    background-color: #424140;
+    width: 2000px;
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 200px;
+}
+
+.bannerTextGroup > h1 {
+    margin: 100px; 
+    padding: 100px;
+    width: 400px;
+    height: 200px;
+    font-size: 40px;
+    background-color: #ffdc44;
+}
+
+.bannerTextGroup > p {
+    background-color: #c7712a;
+    width: 400px;
+    height: 200px;
+    margin: 100px; 
+    padding: 10px;
+    font-size: 30px;
+}
+
+.headBanner > img {
+    margin: 0px 100px;
+    padding: 100px;
+    width: 600px;
+    height: 700px;
+}
+
+.bodyContent {
+    background-color: #bcc42d;
+}
+
+.bodyContent > h3 {
+    margin: 100px;
+    padding: 50px;
+    font-size: 50px;
+}
+
+.bodyContent > img {
+    margin-left: 100px;
+    width: 1000px;
+    height: 700px;
+}
+
+.bodyContent > .followText > p {
+    margin: 50px 0px 50px 100px;
+    font-size: 30px;
+}
+
+.bodyContent > p {
+    margin-left: 100px;
+    width: 800px;
+    padding: 50px;
+}
+
+.navigation {
+    margin: 0px 100px;
+    padding: 50px 100px;
+    width: 50%;
+    background-color: #c7712a;
+}
+
+.navigation > h2 {
+    font-size: 50px;
+}
+
+.navigation > nav > ul > li > a {
+    font-size: 30px;
+    text-decoration: none;
+    color: #424140;
+}
+
+.tableContent {
+    margin: 100px;
+    padding: 25px;
+    width: 550px;
+    background-color: white;
+    text-align: left;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.tableContent > table {
+    border-style: solid;
+    border-width: 5px;
+    border-spacing: 10px;
+}
+
+.tableContent > table > tr > th {
+    padding: 10px;
+    margin: 10px;
+}

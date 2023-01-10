@@ -94,7 +94,7 @@ footer > p {
 .tableContent {
     margin: 100px;
     padding: 25px;
-    width: 1000px;
+    width: 550px;
     background-color: white;
     text-align: left;
     border-style: solid;
@@ -104,6 +104,7 @@ footer > p {
 .tableContent > table {
     border-style: solid;
     border-width: 5px;
+    border-spacing: 10px;
 }
 
 .tableContent > table > tr > th {

@@ -26,11 +26,11 @@ footer > p {
 header {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 200px;
+    margin-bottom: 50px;
 }
 
 .bannerTextGroup {
-     margin: 100px; 
+     margin: 100px;
 }
 
 .bannerTextGroup > h1 {
@@ -61,27 +61,52 @@ header {
     height: 900px;
 }
 
-.bodyContent > h3 {
-    margin: 100px;
+.emptySpace {
+    background-color: #424140;
+    height: 200px;
+    display: flex;
+}
+
+.emptySpace > h3 {
+    margin: 40px;
     padding: 50px;
     font-size: 50px;
+    color: aliceblue;
+}
+
+.emptySpace > .followText > p {
+    margin: 53px;
+    margin-left: 200px;
+    padding: 50px;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.bodyContent {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .bodyContent > img {
-    margin-left: 100px;
+    margin-left: 200px;
     width: 1000px;
     height: 700px;
 }
 
-.bodyContent > .followText > p {
-    margin: 50px 0px 50px 100px;
+.bodyContent > h3 {
+    margin: 25px;
     font-size: 30px;
 }
 
+.textGroup {
+    
+}
+
 .bodyContent > p {
-    margin-left: 100px;
-    width: 800px;
-    padding: 50px;
+    margin-left: 25px;
+    width: 400px;
+    padding: 25px;
 }
 
 .navigation {

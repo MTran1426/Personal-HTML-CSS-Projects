@@ -1,8 +1,8 @@
 /* Slideshow container */
 .templateslideshow {
-    max-width: 500px;
+    max-width: 800px;
     position: relative;
-     margin: auto; 
+    margin: auto; 
   }
   
   /* Hide the images by default */
@@ -18,7 +18,7 @@
   /* Next & previous buttons */
   .prev, .next {
     cursor: pointer;
-    position: absolute;
+    position: absolute; 
     top: 50%;
     width: auto;
     margin-top: -22px;
